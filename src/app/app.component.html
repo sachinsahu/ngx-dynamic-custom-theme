@@ -1,0 +1,14 @@
+<div class="header-module">
+  <app-header-component></app-header-component>
+</div>
+<div class="app-module">
+  <button type="button" class="btn btn-primary" (click)="useTheme('theme2')">Theme 2</button>
+  <button type="button" class="btn btn-secondary" (click)="useTheme('theme1')">Theme 1</button>
+  <p>App Module</p>
+  <div class="shared-module">
+    <app-custom-component></app-custom-component>
+</div>
+  <div class="lazyload-module">
+      <router-outlet></router-outlet>
+  </div>
+</div>
